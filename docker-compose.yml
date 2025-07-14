@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build: ./backend
-    container_name: backend-service
+    container_name: backend-service1
     ports:
       - "3060:3060"
     env_file:
